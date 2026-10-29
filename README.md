@@ -72,3 +72,4 @@ React 19 · React Router 7 · Tailwind CSS 4 · Vite
 
 - Criação do texto que compõe o site
 - Ajuda na lógica de separação de pastas
+- Ajuda na criação do README.md

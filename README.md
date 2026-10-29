@@ -11,6 +11,8 @@ Aplicação em **React + Tailwind CSS** que consome uma API pública de livros d
   - as categorias são definidas em `src/data/categorias.js`, associando cada livro pelo `id`. Se a API passar a enviar `categoria`, ela tem prioridade.
 
 ---
+## Link Vercel
+https://cp06-web.vercel.app/
 
 ## 🚀 Como rodar
 

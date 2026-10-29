@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { useTema } from '../hooks/useTema.js'
 import { useFavoritos } from '../hooks/useFavoritos.js'
+import Favicon from '../assets/favicon.svg'
 
 const LINKS = [
   { to: '/', label: 'Pesquisa', end: true },
@@ -28,7 +29,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 border-b border-stone-200/80 bg-stone-50/85 backdrop-blur-md dark:border-stone-800 dark:bg-stone-950/85">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-center gap-2" onClick={() => setMenuAberto(false)}>
-          <img src="/favicon.svg" alt="" className="h-8 w-8" />
+          <img src={Favicon} alt="" className="h-8 w-8" />
           <span className="font-serif text-xl font-bold tracking-tight">
             Biblioteca <span className="text-amber-600 dark:text-amber-400">Front</span>
           </span>

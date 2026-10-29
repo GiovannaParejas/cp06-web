@@ -7,7 +7,7 @@ export default function Loading({ quantidade = 6 }) {
         {Array.from({ length: quantidade }).map((_, i) => (
           <div
             key={i}
-            className="animate-pulse overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900"
+            className=" overflow-hidden rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900"
           >
             <div className="aspect-[4/3] bg-stone-200 dark:bg-stone-800" />
             <div className="space-y-3 p-5">

@@ -2,7 +2,7 @@ export default function ErrorMessage({ erro, onTentarNovamente }) {
   return (
     <div
       role="alert"
-      className="animate-fade-up mx-auto max-w-md rounded-2xl border border-rose-200 bg-rose-50 p-8 text-center dark:border-rose-900/60 dark:bg-rose-950/40"
+      className="mx-auto max-w-md rounded-2xl border border-rose-200 bg-rose-50 p-8 text-center dark:border-rose-900/60 dark:bg-rose-950/40"
     >
       <p className="text-4xl">📕</p>
       <h2 className="mt-3 font-serif text-xl font-bold">Não conseguimos abrir a estante</h2>

@@ -24,7 +24,7 @@ export default function Categorias() {
               key={cat.slug}
               to={`/categorias/${cat.slug}`}
               style={{ animationDelay: `${i * 70}ms` }}
-              className="group animate-fade-up relative overflow-hidden rounded-2xl border border-stone-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-amber-400 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-amber-500/30 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-amber-500"
+              className="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-amber-400 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-amber-500/30 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-amber-500"
             >
               <span className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-amber-100 transition-transform duration-500 group-hover:scale-[2.2] dark:bg-amber-500/10" />
               <div className="relative">
@@ -36,7 +36,7 @@ export default function Categorias() {
                     {carregando ? '…' : `${contar(cat.slug)} ${contar(cat.slug) === 1 ? 'livro' : 'livros'}`}
                   </span>
                   <span className="text-amber-600 transition-transform group-hover:translate-x-1 dark:text-amber-400">
-                    Ver livros →
+                    Ver livros 
                   </span>
                 </p>
               </div>

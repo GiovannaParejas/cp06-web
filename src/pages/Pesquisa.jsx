@@ -39,7 +39,7 @@ export default function Pesquisa() {
   return (
     <section>
       <PageHeader eyebrow="Acervo" titulo="Encontre seu próximo livro">
-        Uma estante com os melhores títulos de Front-end — HTML, CSS, JavaScript, UX e muito mais.
+        Uma estante com os melhores títulos de Front-end - HTML, CSS, JavaScript, UX e muito mais.
       </PageHeader>
 
       <div className="mb-8">

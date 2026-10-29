@@ -72,7 +72,7 @@ export default function Header() {
 
       {menuAberto && (
         <nav
-          className="animate-page flex flex-col gap-1 border-t border-stone-200 px-4 py-3 md:hidden dark:border-stone-800"
+          className=" flex flex-col gap-1 border-t border-stone-200 px-4 py-3 md:hidden dark:border-stone-800"
           aria-label="Principal (mobile)"
         >
           {LINKS.map((link) => (

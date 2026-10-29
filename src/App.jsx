@@ -21,7 +21,7 @@ export default function App() {
       <Header />
 
       {/* A `key` faz o <main> remontar a cada rota, disparando a animação de transição */}
-      <main key={location.pathname} className="animate-page mx-auto w-full max-w-6xl flex-1 px-4 py-10 sm:px-6 sm:py-14">
+      <main key={location.pathname} className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 sm:px-6 sm:py-14">
         <Routes>
           <Route path="/" element={<Pesquisa />} />
           <Route path="/lancamentos" element={<Lancamentos />} />

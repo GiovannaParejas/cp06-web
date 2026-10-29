@@ -10,9 +10,8 @@ export default function BookCard({ livro, destaque = false, indice = 0 }) {
 
   return (
     <article
-      style={{ animationDelay: `${Math.min(indice, 12) * 60}ms` }}
       className={[
-        'group animate-fade-up relative flex flex-col overflow-hidden rounded-2xl border bg-white',
+        'group relative flex flex-col overflow-hidden rounded-2xl border bg-white',
         'transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-xl',
         'dark:bg-stone-900',
         destaque
@@ -41,7 +40,7 @@ export default function BookCard({ livro, destaque = false, indice = 0 }) {
           src={livro.imagem}
           alt={`Capa do livro ${livro.titulo}`}
           loading="lazy"
-          className="h-full w-auto rounded-sm object-contain shadow-lg transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-1"
+          className="h-full w-auto rounded-sm object-contain shadow-lg transition-transform duration-500"
         />
       </div>
 
